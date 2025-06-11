@@ -4,6 +4,8 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import petxImage from './assets/images/pro.png';
+
 
 // Splash Screen
 
@@ -173,7 +175,7 @@ const workExperiences = {
     {
       role: "Content Creator & Developer",
       company: "YouTube Channel",
-      companylogo: require("./assets/images/yt1.png"), // Use YouTube logo or your channel logo
+      companylogo: petxImage, // Use YouTube logo or your channel logo
       date: "January 2022 – Present",
       desc: "Created and published over 150 technical videos focusing on Flutter, Firebase, React, and full-stack development.",
       descBullets: [
@@ -214,7 +216,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/prt.jpg"),  // add your PetX app logo image in assets
+      image: require("./assets/images/pro.png"),  // add your PetX app logo image in assets
       projectName: "PetX – Buy & Sell Pets",
       projectDesc: "A Flutter-based mobile app that allows users to buy, sell, and explore pets with secure authentication and real-time chat features.",
       footerLink: [
